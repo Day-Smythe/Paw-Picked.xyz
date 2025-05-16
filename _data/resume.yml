@@ -1,0 +1,31 @@
+theme: default
+header:
+  name: Damian Smythe
+  suffix: 
+  display_contact_info: true
+  current_title: Student
+  intro: >
+    null
+contact:
+  #address: 123 Main St, Test, CA 91234
+  #phone: (123) 456-7890
+  email: damian.smythe@outlook.com
+sections:
+  experience:   false
+  education:    false
+  projects:     false
+  skills:       false
+  recognition:  false
+  associations: false
+  interests:    false
+  links:        false
+  social_links: false
+social:
+  Website:    /
+  GitHub:     https://github.com/mr-damian-smythe
+  # Twitter:    https://twitter.com/chad_baldwin
+  #Dribbble:  https://dribbble.com/chadbaldwin
+  #FaceBook:  https://facebook.com/iamchadbaldwin
+  # LinkedIn:   https://linkedin.com/in/chadbaldwin
+  # #Instagram: https://instagram.com/chad_baldwin
+  # #Medium:    https://medium.com/@chad-baldwin
