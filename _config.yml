@@ -1,1 +1,71 @@
+theme: minima
+
+title: Paw Picked
+author: Damian Smythe
+email: damian.smythe@outlook.com
+url: https://paw-picked.xyz
+
+timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
+future: false # GitHub Pages will publish future posts if this isn't set to false
+
+description: >
+  Hardware and software that was picked by paw just for you.
+
+
+github_username:   Day-Smythe
+rss: rss
+
+show_excerpts: false
+
+social-links:
+  Website:         /
+
+twitter:
+
+titles_from_headings:
+  strip_title: true
+
+collections:
+  personal: # collection for personal blog posts
+    output: true
+
+header_pages:
+  # - resume.html
+  - archive.html
+  # - books.md
+  # - bookmarks.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+google_analytics:
+  # - UA-185058308-1 # Old GA Universal Analytics property
+  - G-YRNC7BRQWQ # New GA4 property
+
+gravatar_hash: 2136e716a089f4a3794f4007328c7bfb
+code_block_max_height: 500px
+
+home_post_limit: 6
+
+# The github repo that is to be used for looking up comments
+# comments_repo: chadbaldwin/chadbaldwin.github.io
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://s.gravatar.com/avatar/2136e716a089f4a3794f4007328c7bfb?s=800 # Apply default site image
+  - scope:
+      path: ""
+      type: posts
+    values:
+      tags:
+        - Other # Add a default tag to all posts
+
+# Disable highlighting to use highlightJS instead
+# highlighter: none # Not supported by GitHub Pages
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
 
