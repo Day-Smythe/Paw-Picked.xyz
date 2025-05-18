@@ -30,23 +30,19 @@ collections:
     output: true
 
 header_pages:
-  # - resume.html
   - archive.html
-  # - books.md
-  # - bookmarks.md
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 
 google_analytics:
-  # - UA-185058308-1 # Old GA Universal Analytics property
-  - G-YRNC7BRQWQ # New GA4 property
+  - G-YRNC7BRQWQ
 
 gravatar_hash: 2136e716a089f4a3794f4007328c7bfb
-code_block_max_height: 500px
+code_block_max_height: 1000px
 
-home_post_limit: 6
+home_post_limit: 12
 
 # The github repo that is to be used for looking up comments
 # comments_repo: chadbaldwin/chadbaldwin.github.io
@@ -61,7 +57,7 @@ defaults:
       type: posts
     values:
       tags:
-        - Other # Add a default tag to all posts
+        - Software # Add a default tag to all posts
 
 # Disable highlighting to use highlightJS instead
 # highlighter: none # Not supported by GitHub Pages
