@@ -56,8 +56,7 @@ defaults:
       path: ""
       type: posts
     values:
-      tags:
-        - Software # Add a default tag to all posts
+      tags:  # Add a default tag to all posts
 
 # Disable highlighting to use highlightJS instead
 # highlighter: none # Not supported by GitHub Pages
